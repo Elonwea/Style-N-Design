@@ -2,12 +2,8 @@ body{
     background-color: bisque;
 }
 
-.logo{
-    text-align: left;
-    border-radius: 50%;
+header{
+    box-sizing: content-box;
+    box-shadow: inset;
 }
 
-.banner{
-    text-align: justify;
-    border-radius: 10px;
-}
