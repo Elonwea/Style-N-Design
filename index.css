@@ -1,3 +1,17 @@
-html{
-    background-color: rgb(250, 239, 226);
+html {
+    background-color: black;
+    color: aliceblue;
+}
+
+.banner1 {
+    text-align: center;
+    color: aqua;
+}
+
+.banner1 .name {
+    font-size: 72px;
+}
+
+#logo {
+    border-radius: 25%;
 }
