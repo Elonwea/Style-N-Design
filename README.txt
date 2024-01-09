@@ -11,3 +11,5 @@ Wikipedia contributors. (2023, November 24). Color symbolism. Wikipedia. https:/
 Color Meanings. (n.d.). Color Meanings - The Power and Symbolism of Colors (Infographics). https://www.color-meanings.com/
 
 Fiverr. (2022, January 11). Explore the meaning of colors and how to use them for your brand. Fiverr.com. https://www.fiverr.com/resources/guides/graphic-design/color-meanings
+
+Issacharoff, D. (2022, January 11). Color theory fundamentals every web designer should know. Elementor. https://elementor.com/blog/color-theory-web-design/
