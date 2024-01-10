@@ -30,6 +30,10 @@ h2 {
     text-transform: uppercase;
 }
 
+#red-scheme{
+    color: #7c100e;
+}
+
 #red1 {
     background-color: #05f0f0;
     color: #7c100e;
