@@ -17,6 +17,10 @@ html {
     border-radius: 25%;
 }
 
+h4 {
+    font-size: 36;
+}
+
 table {
     width: auto;
     column-width: auto;;
@@ -35,4 +39,8 @@ th, td{
     padding-right: 1px;
     align-content: center;
     word-wrap: normal;
+}
+
+.red-things{
+    list-style: none;
 }
