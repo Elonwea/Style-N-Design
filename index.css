@@ -1,11 +1,12 @@
 html {
     background-color: lightcyan;
     color: teal;
+
 }
 
 .banner1 {
-    text-align: center;
     color: teal;
+    text-align: center;
 }
 
 .banner1 .name {
@@ -14,4 +15,36 @@ html {
 
 #logo {
     border-radius: 25%;
+}
+
+table {
+    width: auto;
+}
+
+th,
+td {
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+th {
+    font-size: large;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 90%;
+    border-bottom: 2px solid blue;
+    border-top: 1px solid lightgrey;
+}
+
+td {
+    border-bottom: 1px solid blue;
+    padding: 15px;
+    border: none;
+}
+
+.red-row {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    text-align: center;
+    
 }
