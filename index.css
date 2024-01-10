@@ -1,11 +1,11 @@
 html {
-    background-color: black;
-    color: aliceblue;
+    background-color: lightcyan;
+    color: teal;
 }
 
 .banner1 {
     text-align: center;
-    color: aqua;
+    color: teal;
 }
 
 .banner1 .name {
