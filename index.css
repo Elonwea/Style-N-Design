@@ -19,32 +19,20 @@ html {
 
 table {
     width: auto;
+    column-width: auto;;
 }
 
-th,
-td {
-    column-gap: 5px;
-    row-gap: 10px;
-}
-
-th {
-    font-size: large;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 90%;
+thead{
     border-bottom: 2px solid blue;
-    border-top: 1px solid lightgrey;
-}
-
-td {
-    border-bottom: 1px solid blue;
-    padding: 15px;
-    border: none;
-}
-
-.red-row {
-    color: rgb(255, 255, 255);
-    background-color: red;
     text-align: center;
-    
+    text-transform: uppercase;            
+}
+
+th, td{    
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    align-content: center;
+    word-wrap: normal;
 }
