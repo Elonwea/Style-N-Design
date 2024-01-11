@@ -25,8 +25,8 @@ h4 {
 
 table {
     width: auto;
-    column-width: auto;  
-             
+    column-width: auto;
+
 }
 
 thead {
@@ -45,23 +45,28 @@ td {
     word-wrap: normal;
 }
 
-.common, .professional{
- font-size: 18px;
+.common,
+.professional {
+    font-size: 18px;
 }
 
-#red, 
-#blue, 
+#red,
+#blue,
 #yellow,
-#green{
+#green,
+#orange {
     font-size: 36px;
     font-weight: bold;
 }
 
 .red-things,
-.blue-things, 
-.yellow-things, 
-.green-things{
+.blue-things,
+.yellow-things,
+.green-things,
+.orange-things {
     list-style: none;
+    align-content: center;
+    text-align: center;
 }
 
 .red-row {
@@ -84,12 +89,32 @@ td {
     background: linear-gradient(to right, #00f2f2, #0000ff);
 }
 
-.yellow-row{
-color: black;
-background: #ffff00;
-background: -webkit-linear-gradient(left, #ffff00, #ffbf00);
-background: -moz-linear-gradient(left, #ffff00, #ffbf00);
-background: -ms-linear-gradient(left, #ffff00, #ffbf00);
-background: -o-linear-gradient(left, #ffff00, #ffbf00);
-background: linear-gradient(to right, #ffff00, #ffbf00);
+.yellow-row {
+    color: black;
+    background: #ffff00;
+    background: -webkit-linear-gradient(left, #ffff00, #ffbf00);
+    background: -moz-linear-gradient(left, #ffff00, #ffbf00);
+    background: -ms-linear-gradient(left, #ffff00, #ffbf00);
+    background: -o-linear-gradient(left, #ffff00, #ffbf00);
+    background: linear-gradient(to right, #ffff00, #ffbf00);
+}
+
+.green-row {
+    color: aliceblue;
+    background: #00b300;
+    background: -webkit-linear-gradient(left, #00b300, #003400);
+    background: -moz-linear-gradient(left, #00b300, #003400);
+    background: -ms-linear-gradient(left, #00b300, #003400);
+    background: -o-linear-gradient(left, #00b300, #003400);
+    background: linear-gradient(to right, #00b300, #003400);
+}
+
+.orange-row {
+    color: aliceblue;
+    background: #ffc04d;
+    background: -webkit-linear-gradient(left, #ffc04d, #ff7b00);
+    background: -moz-linear-gradient(left, #ffc04d, #ff7b00);
+    background: -ms-linear-gradient(left, #ffc04d, #ff7b00);
+    background: -o-linear-gradient(left, #ffc04d, #ff7b00);
+    background: linear-gradient(to right, #ffc04d, #ff7b00);
 }
