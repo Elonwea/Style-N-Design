@@ -1,6 +1,8 @@
 html {
     background-color: lightcyan;
     color: teal;
+    margin-left: 25%;
+    margin-right: 25%;
 
 }
 
@@ -23,16 +25,18 @@ h4 {
 
 table {
     width: auto;
-    column-width: auto;;
+    column-width: auto;  
+             
 }
 
-thead{
+thead {
     border-bottom: 2px solid blue;
     text-align: center;
-    text-transform: uppercase;            
+    text-transform: uppercase;
 }
 
-th, td{    
+th,
+td {
     padding-top: 0px;
     padding-left: 10px;
     padding-bottom: 2px;
@@ -41,6 +45,51 @@ th, td{
     word-wrap: normal;
 }
 
-.red-things{
+.common, .professional{
+ font-size: 18px;
+}
+
+#red, 
+#blue, 
+#yellow,
+#green{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.red-things,
+.blue-things, 
+.yellow-things, 
+.green-things{
     list-style: none;
+}
+
+.red-row {
+    color: aliceblue;
+    background: #d80000;
+    background: -webkit-linear-gradient(left, #d80000, #3f0000);
+    background: -moz-linear-gradient(left, #d80000, #3f0000);
+    background: -ms-linear-gradient(left, #d80000, #3f0000);
+    background: -o-linear-gradient(left, #d80000, #3f0000);
+    background: linear-gradient(to right, #d80000, #3f0000);
+}
+
+.blue-row {
+    color: black;
+    background: #00f2f2;
+    background: -webkit-linear-gradient(left, #00f2f2, #0000ff);
+    background: -moz-linear-gradient(left, #00f2f2, #0000ff);
+    background: -ms-linear-gradient(left, #00f2f2, #0000ff);
+    background: -o-linear-gradient(left, #00f2f2, #0000ff);
+    background: linear-gradient(to right, #00f2f2, #0000ff);
+}
+
+.yellow-row{
+color: black;
+background: #ffff00;
+background: -webkit-linear-gradient(left, #ffff00, #ffbf00);
+background: -moz-linear-gradient(left, #ffff00, #ffbf00);
+background: -ms-linear-gradient(left, #ffff00, #ffbf00);
+background: -o-linear-gradient(left, #ffff00, #ffbf00);
+background: linear-gradient(to right, #ffff00, #ffbf00);
 }
