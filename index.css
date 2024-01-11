@@ -1,6 +1,6 @@
 html {
     background-color: lightcyan;
-    color: teal;
+    color: black;
     margin-left: 25%;
     margin-right: 25%;
 
@@ -21,6 +21,7 @@ html {
 
 h4 {
     font-size: 36;
+    text-align: center;
 }
 
 table {
@@ -54,7 +55,8 @@ td {
 #blue,
 #yellow,
 #green,
-#orange {
+#orange,
+#purple {
     font-size: 36px;
     font-weight: bold;
 }
@@ -63,58 +65,69 @@ td {
 .blue-things,
 .yellow-things,
 .green-things,
-.orange-things {
+.orange-things,
+.purple-things {
     list-style: none;
     align-content: center;
     text-align: center;
 }
 
 .red-row {
-    color: aliceblue;
+    color: pink;
     background: #d80000;
-    background: -webkit-linear-gradient(left, #d80000, #3f0000);
-    background: -moz-linear-gradient(left, #d80000, #3f0000);
-    background: -ms-linear-gradient(left, #d80000, #3f0000);
-    background: -o-linear-gradient(left, #d80000, #3f0000);
-    background: linear-gradient(to right, #d80000, #3f0000);
+    background: -webkit-linear-gradient(top, #d80000, #3f0000);
+    background: -moz-linear-gradient(top, #d80000, #3f0000);
+    background: -ms-linear-gradient(top, #d80000, #3f0000);
+    background: -o-linear-gradient(top, #d80000, #3f0000);
+    background: linear-gradient(to bottom, #d80000, #3f0000);
 }
 
 .blue-row {
-    color: black;
+    color: rgb(5, 5, 75);
     background: #00f2f2;
-    background: -webkit-linear-gradient(left, #00f2f2, #0000ff);
-    background: -moz-linear-gradient(left, #00f2f2, #0000ff);
-    background: -ms-linear-gradient(left, #00f2f2, #0000ff);
-    background: -o-linear-gradient(left, #00f2f2, #0000ff);
-    background: linear-gradient(to right, #00f2f2, #0000ff);
+    background: -webkit-linear-gradient(top, #00f2f2, #0000ff);
+    background: -moz-linear-gradient(top, #00f2f2, #0000ff);
+    background: -ms-linear-gradient(top, #00f2f2, #0000ff);
+    background: -o-linear-gradient(top, #00f2f2, #0000ff);
+    background: linear-gradient(to bottom, #00f2f2, #0000ff);
 }
 
 .yellow-row {
-    color: black;
+    color: #9c7302;
     background: #ffff00;
-    background: -webkit-linear-gradient(left, #ffff00, #ffbf00);
-    background: -moz-linear-gradient(left, #ffff00, #ffbf00);
-    background: -ms-linear-gradient(left, #ffff00, #ffbf00);
-    background: -o-linear-gradient(left, #ffff00, #ffbf00);
-    background: linear-gradient(to right, #ffff00, #ffbf00);
+    background: -webkit-linear-gradient(top, #ffff00, #ffbf00);
+    background: -moz-linear-gradient(top, #ffff00, #ffbf00);
+    background: -ms-linear-gradient(top, #ffff00, #ffbf00);
+    background: -o-linear-gradient(top, #ffff00, #ffbf00);
+    background: linear-gradient(to bottom, #ffff00, #ffbf00);
 }
 
 .green-row {
-    color: aliceblue;
+    color: #01f801;
     background: #00b300;
-    background: -webkit-linear-gradient(left, #00b300, #003400);
-    background: -moz-linear-gradient(left, #00b300, #003400);
-    background: -ms-linear-gradient(left, #00b300, #003400);
-    background: -o-linear-gradient(left, #00b300, #003400);
-    background: linear-gradient(to right, #00b300, #003400);
+    background: -webkit-linear-gradient(top, #00b300, #003400);
+    background: -moz-linear-gradient(top`, #00b300, #003400);
+    background: -ms-linear-gradient(top, #00b300, #003400);
+    background: -o-linear-gradient(top, #00b300, #003400);
+    background: linear-gradient(to bottom, #00b300, #003400);
 }
 
 .orange-row {
-    color: black;
+    color: #9d5600;
     background: #ffc04d;
-    background: -webkit-linear-gradient(left, #ffc04d, #ff7b00);
-    background: -moz-linear-gradient(left, #ffc04d, #ff7b00);
-    background: -ms-linear-gradient(left, #ffc04d, #ff7b00);
-    background: -o-linear-gradient(left, #ffc04d, #ff7b00);
-    background: linear-gradient(to right, #ffc04d, #ff7b00);
+    background: -webkit-linear-gradient(top, #ffc04d, #ff7b00);
+    background: -moz-linear-gradient(top, #ffc04d, #ff7b00);
+    background: -ms-linear-gradient(top, #ffc04d, #ff7b00);
+    background: -o-linear-gradient(top, #ffc04d, #ff7b00);
+    background: linear-gradient(to bottom, #ffc04d, #ff7b00);
+}
+
+.purple-row {
+    color: #ff1bff;
+    background: #cd00cd;
+    background: -webkit-linear-gradient(top, #cd00cd, #670067);
+    background: -moz-linear-gradient(top, #cd00cd, #670067);
+    background: -ms-linear-gradient(top, #cd00cd, #670067);
+    background: -o-linear-gradient(top, #cd00cd, #670067);
+    background: linear-gradient(to bottom, #cd00cd, #670067);
 }
