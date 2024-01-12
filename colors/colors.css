@@ -23,13 +23,15 @@ h2 {
     text-align: center;
 }
 
+p{
+    text-align: center;
+}
 /*Red  color scheme*/
 .scheme {
-    list-style: none;
-    text-align: left;
-    margin: 0;
-    padding: 5px 10px 5px 10px;
-    text-transform: uppercase;
+   text-transform: uppercase;
+   text-align: center;
+   align-content: center;
+
 }
 
 #red-scheme {
@@ -39,50 +41,130 @@ h2 {
 #red1 {
     background-color: #05f0f0;
     color: #7c100e;
-}
+    width: 175px;
+    height: 175px;
+    }
+
+    #red1 a{
+        color: #eef1da;
+        text-decoration: none;
+        vertical-align: bottom;
+    }
 
 #red2 {
     background-color: #04bebe;
     color: #7c100e;
+    width: 175px;
+    height: 175px;
+}
+
+
+#red2 a{
+    color: #eef1da;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #red3 {
     background-color: #EEF1Da;
     color: #7c100e;
+    width: 175px;
+    height: 175px;
+}
+
+#red3 a{
+    color: #7c100e;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #red4 {
     background-color: #a70101;
     color: #05f0f0;
+    width: 175px;
+    height: 175px;
+}
+
+#red4 a{
+    color: #EEF1Da;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #red5 {
     background-color: #7c100e;
     color: #05f0f0;
+    width: 175px;
+    height: 175px;
+}
+
+#red5 a{
+    color: #EEF1Da;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #blue1{
     background-color: #19381f;
     color: #c0e0de;
+    width: 175px;
+    height: 175px;
+}
+
+#blue1 a{
+    color: #c0e0de;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #blue2{
     background-color: #c3e991;
     color: #994636;
+    width: 175px;
+    height: 175px;
+}
+
+#blue2 a{
+    color: #c0e0de;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #blue3 {
     background-color: #994636;
     color: #c0e0de;
+    width: 175px;
+    height: 175px;
+}
+
+#blue3 a{
+    color: #c0e0de;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #blue4{
     background-color: #c0e0de;
     color: #994636;
+    width: 175px;
+    height: 175px;
+}
+
+#blue4 a{
+    color: #261ed2;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 #blue5{
     background-color: #261ed2;
     color: #c0e0de;
+    width: 175px;
+    height: 175px;
 }
 
+#blue5 a{
+    color: #c0e0de;
+    text-decoration: none;
+    vertical-align: bottom;
+}
