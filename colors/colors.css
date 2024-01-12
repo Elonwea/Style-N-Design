@@ -1,6 +1,8 @@
 html {
     background-color: lightcyan;
     color: teal;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .banner1 {
@@ -17,12 +19,12 @@ html {
 }
 
 h2 {
-    font-size: 36;
+    font-size: 48px;
     text-align: center;
 }
 
 /*Red  color scheme*/
-.red-scheme {
+.scheme {
     list-style: none;
     text-align: left;
     margin: 0;
@@ -30,7 +32,7 @@ h2 {
     text-transform: uppercase;
 }
 
-#red-scheme{
+#red-scheme {
     color: #7c100e;
 }
 
@@ -39,22 +41,48 @@ h2 {
     color: #7c100e;
 }
 
-#red2{
+#red2 {
     background-color: #04bebe;
     color: #7c100e;
 }
 
-#red3{
+#red3 {
     background-color: #EEF1Da;
     color: #7c100e;
 }
 
-#red4{
+#red4 {
     background-color: #a70101;
     color: #05f0f0;
 }
 
-#red5{
+#red5 {
     background-color: #7c100e;
     color: #05f0f0;
 }
+
+#blue1{
+    background-color: #19381f;
+    color: #c0e0de;
+}
+
+#blue2{
+    background-color: #c3e991;
+    color: #994636;
+}
+
+#blue3 {
+    background-color: #994636;
+    color: #c0e0de;
+}
+
+#blue4{
+    background-color: #c0e0de;
+    color: #994636;
+}
+
+#blue5{
+    background-color: #261ed2;
+    color: #c0e0de;
+}
+
