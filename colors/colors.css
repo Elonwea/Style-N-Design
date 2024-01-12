@@ -1,6 +1,6 @@
 html {
     background-color: lightcyan;
-    color: teal;
+    color: black;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -23,15 +23,15 @@ h2 {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
 }
+
 /*Red  color scheme*/
 .scheme {
-   text-transform: uppercase;
-   text-align: center;
-   align-content: center;
-
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
 }
 
 #red-scheme {
@@ -40,131 +40,336 @@ p{
 
 #red1 {
     background-color: #05f0f0;
-    color: #7c100e;
     width: 175px;
     height: 175px;
-    }
+}
 
-    #red1 a{
-        color: #eef1da;
-        text-decoration: none;
-        vertical-align: bottom;
-    }
+#red1 a {
+    color: #eef1da;
+    text-decoration: none;
+}
 
 #red2 {
     background-color: #04bebe;
-    color: #7c100e;
     width: 175px;
     height: 175px;
 }
 
 
-#red2 a{
+#red2 a {
     color: #eef1da;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
 #red3 {
     background-color: #EEF1Da;
-    color: #7c100e;
     width: 175px;
     height: 175px;
 }
 
-#red3 a{
+#red3 a {
     color: #7c100e;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
 #red4 {
     background-color: #a70101;
-    color: #05f0f0;
     width: 175px;
     height: 175px;
 }
 
-#red4 a{
+#red4 a {
     color: #EEF1Da;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
 #red5 {
     background-color: #7c100e;
-    color: #05f0f0;
     width: 175px;
     height: 175px;
 }
 
-#red5 a{
+#red5 a {
     color: #EEF1Da;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
-#blue1{
+/*blue  color scheme*/
+#blue1 {
     background-color: #19381f;
-    color: #c0e0de;
     width: 175px;
     height: 175px;
 }
 
-#blue1 a{
+#blue1 a {
     color: #c0e0de;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
-#blue2{
+#blue2 {
     background-color: #c3e991;
-    color: #994636;
     width: 175px;
     height: 175px;
 }
 
-#blue2 a{
+#blue2 a {
     color: #c0e0de;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
 #blue3 {
     background-color: #994636;
-    color: #c0e0de;
     width: 175px;
     height: 175px;
 }
 
-#blue3 a{
+#blue3 a {
     color: #c0e0de;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
-#blue4{
+#blue4 {
     background-color: #c0e0de;
-    color: #994636;
     width: 175px;
     height: 175px;
 }
 
-#blue4 a{
+#blue4 a {
     color: #261ed2;
     text-decoration: none;
-    vertical-align: bottom;
 }
 
-#blue5{
+#blue5 {
     background-color: #261ed2;
-    color: #c0e0de;
     width: 175px;
     height: 175px;
 }
 
-#blue5 a{
+#blue5 a {
     color: #c0e0de;
     text-decoration: none;
-    vertical-align: bottom;
+}
+
+/*yellow color scheme*/
+#yellow1 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#yellow1 a {
+    color: #;
+    text-decoration: none;
+}
+
+#yellow2 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#yellow2 a{
+    color: #;
+    text-decoration: none;
+}
+
+#yellow3 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#yellow3 a {
+    color:#;
+    text-decoration: none;
+}
+
+#yellow4 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#yellow4 a {
+    color: #;
+    text-decoration: none;
+}
+
+#yellow5 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#yellow5 a {
+    color: #;
+    text-decoration: none;
+}
+
+/*green color scheme*/
+#green1 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#green1 a {
+    color: #;
+    text-decoration: none;
+}
+
+#green2 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#green2 a {
+    color: #;
+    text-decoration: none;
+}
+
+#green3 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#green3 a {
+    color:#;
+    text-decoration: none;
+}
+
+#green4 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#green4 a {
+    color: #;
+    text-decoration: none;
+}
+
+#green5 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#green5 a {
+    color: #;
+    text-decoration: none;
+}
+
+/*orange color scheme*/
+#orange1 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#orange1 a {
+    color: #;
+    text-decoration: none;
+}
+
+#orange2 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#orange2 a {
+    color: #;
+    text-decoration: none;
+}
+
+#orange3 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#orange3 a {
+    color:#;
+    text-decoration: none;
+}
+
+#orange4 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#orange4 a {
+    color: #;
+    text-decoration: none;
+}
+
+#orange5 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#orange5 a {
+    color: #;
+    text-decoration: none;
+}
+
+/*purple color scheme*/
+#purple1 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#purple1 a {
+    color: #;
+    text-decoration: none;
+}
+
+#purple2 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#purple2 a {
+    color: #;
+    text-decoration: none;
+}
+
+#purple3 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#purple3 a {
+    color:#;
+    text-decoration: none;
+}
+
+#purple4 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#purple4 a {
+    color: #;
+    text-decoration: none;
+}
+
+#purple5 {
+    background-color: #;
+    width: 175px;
+    height: 175px;
+}
+
+#purple5 a {
+    color: #;
+    text-decoration: none;
 }
